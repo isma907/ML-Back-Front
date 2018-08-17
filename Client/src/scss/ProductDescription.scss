@@ -1,0 +1,14 @@
+#product_description {
+    padding-top: $big-padding;
+    padding-left: $big-padding;
+    
+    h3,p{
+        padding-bottom: $big-padding
+    }
+    h3{ 
+        font-size: $big-font-size
+    }
+    p{
+        font-size: $base-font-size
+    }
+}

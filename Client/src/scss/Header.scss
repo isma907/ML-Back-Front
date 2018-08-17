@@ -1,0 +1,20 @@
+#search_header{
+    background:$yellow;
+
+    .buscador{
+        border:none;
+        font-size: 18px;
+        }
+    
+    .buscar-btn{
+            background:$light-gray;
+            border:none;
+         img{
+             width:28px;
+        }
+    }
+}
+
+.breadnav{
+    padding: 16px 0px;
+}

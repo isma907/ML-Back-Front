@@ -1,0 +1,35 @@
+.row-result{
+    border-bottom:1px solid $light-gray;
+    padding:16px;
+    text-decoration: none;
+    color:$dark-gray;
+    &:hover,&:focus{
+        text-decoration: none;
+        color:$dark-gray;
+        box-shadow:  0 1px 1px 0 rgba(0,0,0,.1), 0 -1px 2px 0 rgba(0,0,0,.1);
+        transition:ease all 0.2s
+    }
+    .image-container{
+        $img-size:180px;
+
+        width: $img-size;
+        height: $img-size;
+        display: block;
+        border-radius:$base-border-radius;
+        overflow: hidden;
+
+        img{
+            width:$img-size;
+        }
+    }
+    .precio{
+        font-size: $large-font-size;
+    }
+    .descripcion{
+        font-size: $medium-font-size;
+    }
+    .ciudad{
+        font-size: $small-font-size;
+        color:$gray
+    }
+}

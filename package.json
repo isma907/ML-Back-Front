@@ -1,0 +1,25 @@
+{
+  "name": "ml-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "installAll": "npm install --prefix Client && npm install",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "front": "npm run build --prefix Client",
+    "app":"npm run front & npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "promises-all": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}

@@ -1,0 +1,35 @@
+#product-container{
+    
+    .product-title{
+        font-size:$large-font-size;
+        padding:$big-padding 0px;
+        padding-top:14px;
+    }
+    .product-price{
+        font-size: $bigger-font-size;
+        padding-bottom:$big-padding;
+    }
+
+    .btn-comprar{
+        background: $light-blue;
+        color:$white !important;
+        width: 100%;
+    }
+    .galery-container{
+        padding-top: 16px;
+        img{
+            width: 680px
+        }
+    }
+    .product-status{
+        padding-top: $big-padding;
+        display: block;
+        font-size: $med-font-size;
+        color:$gray
+    }
+
+    .product-btn-container{
+        padding-right: $big-padding
+    }
+
+}

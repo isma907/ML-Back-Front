@@ -1,0 +1,86 @@
+body {
+  background: #EEE;
+  color: #333;
+  font-family: Proxima Nova, -apple-system, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif; }
+
+.main-container {
+  background: #FFF;
+  border-radius: 4px; }
+
+#search_header {
+  background: #FFE600; }
+  #search_header .buscador {
+    border: none;
+    font-size: 18px; }
+  #search_header .buscar-btn {
+    background: #EEE;
+    border: none; }
+    #search_header .buscar-btn img {
+      width: 28px; }
+
+.breadnav {
+  padding: 16px 0px; }
+
+.row-result {
+  border-bottom: 1px solid #EEE;
+  padding: 16px;
+  text-decoration: none;
+  color: #333; }
+  .row-result:hover, .row-result:focus {
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1), 0 -1px 2px 0 rgba(0, 0, 0, 0.1);
+    transition: ease all 0.2s; }
+  .row-result .image-container {
+    width: 180px;
+    height: 180px;
+    display: block;
+    border-radius: 4px;
+    overflow: hidden; }
+    .row-result .image-container img {
+      width: 180px; }
+  .row-result .precio {
+    font-size: 24px; }
+  .row-result .descripcion {
+    font-size: 18px; }
+  .row-result .ciudad {
+    font-size: 12px;
+    color: #666; }
+
+#product-container .product-title {
+  font-size: 24px;
+  padding: 32px 0px;
+  padding-top: 14px; }
+
+#product-container .product-price {
+  font-size: 46px;
+  padding-bottom: 32px; }
+
+#product-container .btn-comprar {
+  background: #3483FA;
+  color: #FFF !important;
+  width: 100%; }
+
+#product-container .galery-container {
+  padding-top: 16px; }
+  #product-container .galery-container img {
+    width: 680px; }
+
+#product-container .product-status {
+  padding-top: 32px;
+  display: block;
+  font-size: 14px;
+  color: #666; }
+
+#product-container .product-btn-container {
+  padding-right: 32px; }
+
+#product_description {
+  padding-top: 32px;
+  padding-left: 32px; }
+  #product_description h3, #product_description p {
+    padding-bottom: 32px; }
+  #product_description h3 {
+    font-size: 28px; }
+  #product_description p {
+    font-size: 16px; }
