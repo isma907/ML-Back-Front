@@ -1,23 +1,32 @@
-Primer paso
+INSTALACIÓN
 ----------------------------
 Correr el comando 
 ### `npm run installAll`
 para instalar las dependencias
 
 
-Segundo Paso
+Para correr app como build directamente
 ----------------------------
+### `npm run buil`
+y abrir http://localhost:4500
+
+
+Para ejecutar la app de manera separada
+----------------------------
+En la carpeta Raiz
+
+***Primer Paso***
 Ejecutar 
 ### `npm run dev`
 para correr el servidor
 
 
-Tercer Paso
-----------------------------
+***Segundo Paso***
+
 Abrir otra consola en el directorio Client o bien en la misma carpeta 
 ### `cd Client`
 ### `npm start`
-para correr el cliente
+para correr el cliente sobre el puerto http://localhost:3000
 
 
 
